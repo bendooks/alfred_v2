@@ -1,0 +1,21 @@
+
+
+
+PI/FN		Net Name		Connection
+GPIO0		PI_SDA		SDA for I2C
+GPIO1		PI_SCL		SCL for I2C
+GPIO4		PI_GPIO7		ALRT from I2C temperature senesor
+GPIO17		PI_GPIO0		MFP from RTC
+GPIO21		PI_GPIO2
+GPIO22		PI_GPIO3		AVR nRESET (drive high to reset AVR)
+GPIO10		PI_MOSI		nRLF and AVR SPI
+GPIO9		PI_MISO		nRLF and AVR SPI
+GPIO11		PI_SCK		nRLF and AVR SPI
+GPIO7		~SPI_CS1		AVR nCS (via buffer)
+GPIO8		~SPI_CS0		nRLF module nCS
+GPIO25		PI_GPIO6		nRLF IRQ (? active)
+GPIO24		PI_GPIO5		nRLF CE line (? active)
+GPIO23		PI_GPIO4		AVR SPI buffer enable (active high)
+GPIO18		PI_GPIO1		PI to/from AVR (possibly AVR-TO-PI IRQ)
+GPIO15		PI_SRX		AVR serial connection
+GPIO14		PI_STX		AVR serial connection
